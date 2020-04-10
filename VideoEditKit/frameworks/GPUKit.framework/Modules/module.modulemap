@@ -1,0 +1,6 @@
+framework module GPUKit {
+  umbrella header "GPUKit.h"
+
+  export *
+  module * { export * }
+}

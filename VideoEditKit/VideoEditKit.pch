@@ -1,0 +1,17 @@
+//
+//  VideoEditKit.pch
+//  VideoEditKit
+//
+//  Created by 黄世平 on 2019/3/4.
+//  Copyright © 2019 hsp. All rights reserved.
+//
+
+#ifndef VideoEditKit_pch
+#define VideoEditKit_pch
+
+#ifdef __OBJC__
+#import <GPUKit/GPUKit.h>
+#endif
+
+
+#endif /* VideoEditKit_pch */

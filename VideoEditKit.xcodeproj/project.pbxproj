@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF441F69239E35AA00DE52F9 /* HWaterMark.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441F67239E35AA00DE52F9 /* HWaterMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441F6A239E35AA00DE52F9 /* HWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441F68239E35AA00DE52F9 /* HWaterMark.m */; };
+		FF441F6D239E36C100DE52F9 /* HWaterMarkFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441F6B239E36C100DE52F9 /* HWaterMarkFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441F6E239E36C100DE52F9 /* HWaterMarkFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441F6C239E36C100DE52F9 /* HWaterMarkFilter.m */; };
+		FF441F82239E4C5700DE52F9 /* HWatermarkExport.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441F80239E4C5700DE52F9 /* HWatermarkExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441F83239E4C5700DE52F9 /* HWatermarkExport.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441F81239E4C5700DE52F9 /* HWatermarkExport.m */; };
+		FF441FB4239F92F200DE52F9 /* HAVAssetReaderOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FB2239F92F200DE52F9 /* HAVAssetReaderOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FB5239F92F200DE52F9 /* HAVAssetReaderOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FB3239F92F200DE52F9 /* HAVAssetReaderOutput.m */; };
+		FF441FB8239F936C00DE52F9 /* HAVVideoEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FB6239F936C00DE52F9 /* HAVVideoEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FB9239F936C00DE52F9 /* HAVVideoEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FB7239F936C00DE52F9 /* HAVVideoEffect.m */; };
+		FF441FBC239F943A00DE52F9 /* HAVVideoEffectController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FBA239F943A00DE52F9 /* HAVVideoEffectController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FBD239F943A00DE52F9 /* HAVVideoEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FBB239F943A00DE52F9 /* HAVVideoEffectController.m */; };
+		FF441FC0239F95EE00DE52F9 /* HAVVideoEffectFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FBE239F95EE00DE52F9 /* HAVVideoEffectFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FC1239F95EE00DE52F9 /* HAVVideoEffectFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FBF239F95EE00DE52F9 /* HAVVideoEffectFilter.m */; };
+		FF441FC4239F968C00DE52F9 /* HAVVideoEffectFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FC2239F968C00DE52F9 /* HAVVideoEffectFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FC5239F968C00DE52F9 /* HAVVideoEffectFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FC3239F968C00DE52F9 /* HAVVideoEffectFilterController.m */; };
+		FF441FC8239F974300DE52F9 /* HAVVideoEffectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FC6239F974300DE52F9 /* HAVVideoEffectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FC9239F974300DE52F9 /* HAVVideoEffectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FC7239F974300DE52F9 /* HAVVideoEffectManager.m */; };
+		FF441FCC239F97A600DE52F9 /* HAVVideoEffectProgramManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF441FCA239F97A600DE52F9 /* HAVVideoEffectProgramManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF441FCD239F97A600DE52F9 /* HAVVideoEffectProgramManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF441FCB239F97A600DE52F9 /* HAVVideoEffectProgramManager.m */; };
+		FFFA22A622295FE400C5A2BA /* VideoEditKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA22A422295FE400C5A2BA /* VideoEditKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA256E2229614A00C5A2BA /* GPUKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA256D2229614A00C5A2BA /* GPUKit.framework */; };
+		FFFA25B2222966CB00C5A2BA /* DCSpecialEffectsView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25B0222966CB00C5A2BA /* DCSpecialEffectsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25B3222966CB00C5A2BA /* DCSpecialEffectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25B1222966CB00C5A2BA /* DCSpecialEffectsView.m */; };
+		FFFA25BF222CCEEB00C5A2BA /* DCVideoPreview.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25BD222CCEEB00C5A2BA /* DCVideoPreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25C0222CCEEB00C5A2BA /* DCVideoPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25BE222CCEEB00C5A2BA /* DCVideoPreview.m */; };
+		FFFA25C3222CD02A00C5A2BA /* DCVideoCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25C1222CD02A00C5A2BA /* DCVideoCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25C4222CD02A00C5A2BA /* DCVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25C2222CD02A00C5A2BA /* DCVideoCamera.m */; };
+		FFFA25D3222CD34C00C5A2BA /* AVAsset+MetalData.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25D1222CD34C00C5A2BA /* AVAsset+MetalData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25D4222CD34C00C5A2BA /* AVAsset+MetalData.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25D2222CD34C00C5A2BA /* AVAsset+MetalData.m */; };
+		FFFA25D7222CD3AB00C5A2BA /* AVURLAsset+MetalData.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25D5222CD3AB00C5A2BA /* AVURLAsset+MetalData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25D8222CD3AB00C5A2BA /* AVURLAsset+MetalData.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25D6222CD3AB00C5A2BA /* AVURLAsset+MetalData.m */; };
+		FFFA25DB222CD43100C5A2BA /* HAVAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25D9222CD43100C5A2BA /* HAVAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25DC222CD43100C5A2BA /* HAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25DA222CD43100C5A2BA /* HAVAudioPlayer.m */; };
+		FFFA25DF222CD49000C5A2BA /* HAVAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25DD222CD49000C5A2BA /* HAVAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25E3222CD4B600C5A2BA /* HAVAudioItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25E1222CD4B600C5A2BA /* HAVAudioItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25E4222CD4B600C5A2BA /* HAVAudioItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25E2222CD4B600C5A2BA /* HAVAudioItem.m */; };
+		FFFA25EB222CD59200C5A2BA /* HAVAudioTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25E9222CD59200C5A2BA /* HAVAudioTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25EC222CD59200C5A2BA /* HAVAudioTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25EA222CD59200C5A2BA /* HAVAudioTrack.m */; };
+		FFFA25EF222CD5BE00C5A2BA /* HAVAudioRender.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25ED222CD5BE00C5A2BA /* HAVAudioRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25F0222CD5BE00C5A2BA /* HAVAudioRender.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25EE222CD5BE00C5A2BA /* HAVAudioRender.m */; };
+		FFFA25F2222CD62600C5A2BA /* HAVDataSourceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25F1222CD62600C5A2BA /* HAVDataSourceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25F5222CD66C00C5A2BA /* HAVFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25F3222CD66C00C5A2BA /* HAVFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25F6222CD66C00C5A2BA /* HAVFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25F4222CD66C00C5A2BA /* HAVFileManager.m */; };
+		FFFA25F9222CD6D600C5A2BA /* HAVGPUImageMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25F7222CD6D600C5A2BA /* HAVGPUImageMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25FA222CD6D600C5A2BA /* HAVGPUImageMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25F8222CD6D600C5A2BA /* HAVGPUImageMovie.m */; };
+		FFFA25FD222CD71400C5A2BA /* HAVGPUImageMovieMix.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25FB222CD71400C5A2BA /* HAVGPUImageMovieMix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA25FE222CD71400C5A2BA /* HAVGPUImageMovieMix.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA25FC222CD71400C5A2BA /* HAVGPUImageMovieMix.m */; };
+		FFFA2601222CD77000C5A2BA /* HAVImageGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA25FF222CD77000C5A2BA /* HAVImageGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2602222CD77000C5A2BA /* HAVImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2600222CD77000C5A2BA /* HAVImageGenerator.m */; };
+		FFFA2605222CD7AC00C5A2BA /* HAVMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2603222CD7AC00C5A2BA /* HAVMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2606222CD7AC00C5A2BA /* HAVMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2604222CD7AC00C5A2BA /* HAVMetadata.m */; };
+		FFFA2609222CD7E800C5A2BA /* HAVMetadataRetreiver.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2607222CD7E800C5A2BA /* HAVMetadataRetreiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA260A222CD7E800C5A2BA /* HAVMetadataRetreiver.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2608222CD7E800C5A2BA /* HAVMetadataRetreiver.m */; };
+		FFFA260D222CD85200C5A2BA /* HAVMovieFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA260B222CD85200C5A2BA /* HAVMovieFileReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA260E222CD85200C5A2BA /* HAVMovieFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA260C222CD85200C5A2BA /* HAVMovieFileReader.m */; };
+		FFFA2611222CD8E600C5A2BA /* HAVMovieReader.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA260F222CD8E600C5A2BA /* HAVMovieReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2612222CD8E600C5A2BA /* HAVMovieReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2610222CD8E600C5A2BA /* HAVMovieReader.m */; };
+		FFFA2615222CD94000C5A2BA /* HAVMutiTracksPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2613222CD94000C5A2BA /* HAVMutiTracksPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2616222CD94000C5A2BA /* HAVMutiTracksPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2614222CD94000C5A2BA /* HAVMutiTracksPlayerItem.m */; };
+		FFFA2619222CD97D00C5A2BA /* HAVPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2617222CD97D00C5A2BA /* HAVPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA261A222CD97D00C5A2BA /* HAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2618222CD97D00C5A2BA /* HAVPlayer.m */; };
+		FFFA261D222CD9C600C5A2BA /* HAVPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA261B222CD9C600C5A2BA /* HAVPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA261E222CD9C600C5A2BA /* HAVPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA261C222CD9C600C5A2BA /* HAVPlayerItem.m */; };
+		FFFA2621222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA261F222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2622222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2620222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.m */; };
+		FFFA2625222CDA5600C5A2BA /* HAVSpecialEffectsController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2623222CDA5600C5A2BA /* HAVSpecialEffectsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2626222CDA5600C5A2BA /* HAVSpecialEffectsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2624222CDA5600C5A2BA /* HAVSpecialEffectsController.m */; };
+		FFFA2629222CDA9D00C5A2BA /* HAVSynthesis.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2627222CDA9D00C5A2BA /* HAVSynthesis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA262A222CDA9D00C5A2BA /* HAVSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2628222CDA9D00C5A2BA /* HAVSynthesis.m */; };
+		FFFA262D222CDADE00C5A2BA /* HAVVideoClip.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA262B222CDADE00C5A2BA /* HAVVideoClip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA262E222CDADE00C5A2BA /* HAVVideoClip.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA262C222CDADE00C5A2BA /* HAVVideoClip.m */; };
+		FFFA2631222CDB2200C5A2BA /* HAVVideoExport.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA262F222CDB2200C5A2BA /* HAVVideoExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2632222CDB2200C5A2BA /* HAVVideoExport.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2630222CDB2200C5A2BA /* HAVVideoExport.m */; };
+		FFFA2635222CDB6800C5A2BA /* HAVVideoItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2633222CDB6800C5A2BA /* HAVVideoItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2636222CDB6800C5A2BA /* HAVVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2634222CDB6800C5A2BA /* HAVVideoItem.m */; };
+		FFFA2639222CDB9A00C5A2BA /* HAVVideoSize.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2637222CDB9A00C5A2BA /* HAVVideoSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA263D222CDBBF00C5A2BA /* HAVVideoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA263B222CDBBF00C5A2BA /* HAVVideoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA263E222CDBBF00C5A2BA /* HAVVideoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA263C222CDBBF00C5A2BA /* HAVVideoTrack.m */; };
+		FFFA2641222CDBEE00C5A2BA /* HAVVideoTrackItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA263F222CDBEE00C5A2BA /* HAVVideoTrackItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2642222CDBEE00C5A2BA /* HAVVideoTrackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2640222CDBEE00C5A2BA /* HAVVideoTrackItem.m */; };
+		FFFA2645222CDC8A00C5A2BA /* HAVAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2643222CDC8A00C5A2BA /* HAVAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2646222CDC8A00C5A2BA /* HAVAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2644222CDC8A00C5A2BA /* HAVAsset.m */; };
+		FFFA2649222CDCCA00C5A2BA /* HAVAssetItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2647222CDCCA00C5A2BA /* HAVAssetItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA264A222CDCCA00C5A2BA /* HAVAssetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2648222CDCCA00C5A2BA /* HAVAssetItem.m */; };
+		FFFA264D222CDD0E00C5A2BA /* HAVMoviePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA264B222CDD0E00C5A2BA /* HAVMoviePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA264E222CDD0E00C5A2BA /* HAVMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA264C222CDD0E00C5A2BA /* HAVMoviePlayer.m */; };
+		FFFA2651222CE31900C5A2BA /* DCMovieAssetExport.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA264F222CE31900C5A2BA /* DCMovieAssetExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2652222CE31900C5A2BA /* DCMovieAssetExport.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2650222CE31900C5A2BA /* DCMovieAssetExport.m */; };
+		FFFA2655222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2653222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2656222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2654222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.m */; };
+		FFFA2659222CFF3200C5A2BA /* HAVGPUImageFilterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2657222CFF3200C5A2BA /* HAVGPUImageFilterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA265A222CFF3200C5A2BA /* HAVGPUImageFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2658222CFF3200C5A2BA /* HAVGPUImageFilterManager.m */; };
+		FFFA265E222D019900C5A2BA /* HAVGPUImageFilterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA265D222D019900C5A2BA /* HAVGPUImageFilterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2672222D075C00C5A2BA /* QAVFaceTrackObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2662222D075B00C5A2BA /* QAVFaceTrackObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2673222D075C00C5A2BA /* CMOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2663222D075B00C5A2BA /* CMOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2675222D075C00C5A2BA /* cdcn95_verify_iter_50000.dat in Resources */ = {isa = PBXBuildFile; fileRef = FFFA2666222D075B00C5A2BA /* cdcn95_verify_iter_50000.dat */; };
+		FFFA2676222D075C00C5A2BA /* nocross_12_17w.dat in Resources */ = {isa = PBXBuildFile; fileRef = FFFA2667222D075B00C5A2BA /* nocross_12_17w.dat */; };
+		FFFA2677222D075C00C5A2BA /* cdcn_iter_500000.dat in Resources */ = {isa = PBXBuildFile; fileRef = FFFA2668222D075B00C5A2BA /* cdcn_iter_500000.dat */; };
+		FFFA2678222D075C00C5A2BA /* frcnn_full_cross_500000.dat in Resources */ = {isa = PBXBuildFile; fileRef = FFFA2669222D075B00C5A2BA /* frcnn_full_cross_500000.dat */; };
+		FFFA2679222D075C00C5A2BA /* cdcn_iter_500000_v52017_edged.dat in Resources */ = {isa = PBXBuildFile; fileRef = FFFA266A222D075B00C5A2BA /* cdcn_iter_500000_v52017_edged.dat */; };
+		FFFA267A222D075C00C5A2BA /* model95_360.bin in Resources */ = {isa = PBXBuildFile; fileRef = FFFA266B222D075B00C5A2BA /* model95_360.bin */; };
+		FFFA267B222D075C00C5A2BA /* cdcn95_verify_EU2zo_iter_50000_noLargeedged.dat in Resources */ = {isa = PBXBuildFile; fileRef = FFFA266C222D075B00C5A2BA /* cdcn95_verify_EU2zo_iter_50000_noLargeedged.dat */; };
+		FFFA267C222D075C00C5A2BA /* model95_EU2ZO_noPre_1122_PP_D5_015_noAug.bin in Resources */ = {isa = PBXBuildFile; fileRef = FFFA266D222D075B00C5A2BA /* model95_EU2ZO_noPre_1122_PP_D5_015_noAug.bin */; };
+		FFFA267D222D075C00C5A2BA /* CMOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA266E222D075B00C5A2BA /* CMOrientation.m */; };
+		FFFA267E222D075C00C5A2BA /* QAVFaceTrackObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA266F222D075B00C5A2BA /* QAVFaceTrackObject.m */; };
+		FFFA267F222D075C00C5A2BA /* QAVFaceTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2670222D075B00C5A2BA /* QAVFaceTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2680222D075C00C5A2BA /* QAVFaceTracker.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2671222D075B00C5A2BA /* QAVFaceTracker.mm */; };
+		FFFA2684222D08FB00C5A2BA /* HAVSpliteFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2682222D08FB00C5A2BA /* HAVSpliteFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2685222D08FB00C5A2BA /* HAVSpliteFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2683222D08FB00C5A2BA /* HAVSpliteFilter.m */; };
+		FFFA2688222D09AF00C5A2BA /* HAVSpliteFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2686222D09AF00C5A2BA /* HAVSpliteFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2689222D09AF00C5A2BA /* HAVSpliteFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2687222D09AF00C5A2BA /* HAVSpliteFilterController.m */; };
+		FFFA268D222D0B3400C5A2BA /* HAVLutImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA268B222D0B3400C5A2BA /* HAVLutImageFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA268E222D0B3400C5A2BA /* HAVLutImageFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFFA268C222D0B3400C5A2BA /* HAVLutImageFilter.mm */; };
+		FFFA2691222D0B9800C5A2BA /* HAVLutImageFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA268F222D0B9800C5A2BA /* HAVLutImageFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2692222D0B9800C5A2BA /* HAVLutImageFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2690222D0B9800C5A2BA /* HAVLutImageFilterController.m */; };
+		FFFA2695222D0BF100C5A2BA /* HAVGPUImageLutFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2693222D0BF100C5A2BA /* HAVGPUImageLutFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2696222D0BF100C5A2BA /* HAVGPUImageLutFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2694222D0BF100C5A2BA /* HAVGPUImageLutFilter.m */; };
+		FFFA2699222D0C3700C5A2BA /* HAVGPULightLutFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2697222D0C3700C5A2BA /* HAVGPULightLutFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA269A222D0C3700C5A2BA /* HAVGPULightLutFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2698222D0C3700C5A2BA /* HAVGPULightLutFilter.m */; };
+		FFFA26CC222D136800C5A2BA /* HAVGifFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA26CA222D136800C5A2BA /* HAVGifFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA26CD222D136800C5A2BA /* HAVGifFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA26CB222D136800C5A2BA /* HAVGifFilter.m */; };
+		FFFA26D0222D13CD00C5A2BA /* HAVGifFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA26CE222D13CD00C5A2BA /* HAVGifFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA26D1222D13CD00C5A2BA /* HAVGifFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA26CF222D13CD00C5A2BA /* HAVGifFilterController.m */; };
+		FFFA26D5222D16E500C5A2BA /* HAVScrawAndTextFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA26D3222D16E500C5A2BA /* HAVScrawAndTextFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA26D6222D16E500C5A2BA /* HAVScrawAndTextFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA26D4222D16E500C5A2BA /* HAVScrawAndTextFilter.m */; };
+		FFFA26D9222D175900C5A2BA /* HAVScrawAndTextFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA26D7222D175900C5A2BA /* HAVScrawAndTextFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA26DA222D175900C5A2BA /* HAVScrawAndTextFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA26D8222D175900C5A2BA /* HAVScrawAndTextFilterController.m */; };
+		FFFA26DE222D18DB00C5A2BA /* HAVTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA26DC222D18DB00C5A2BA /* HAVTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA26DF222D18DB00C5A2BA /* HAVTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA26DD222D18DB00C5A2BA /* HAVTools.m */; };
+		FFFA26E1222D190600C5A2BA /* HOpenGLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA26E0222D190600C5A2BA /* HOpenGLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA26F4222D25C800C5A2BA /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA26F1222D25C800C5A2BA /* MetalKit.framework */; };
+		FFFA26F5222D25C800C5A2BA /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA26F2222D25C800C5A2BA /* MetalPerformanceShaders.framework */; };
+		FFFA26F6222D25C800C5A2BA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA26F3222D25C800C5A2BA /* Metal.framework */; };
+		FFFA26F8222D25D100C5A2BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA26F7222D25D100C5A2BA /* AVFoundation.framework */; };
+		FFFA26FA222D25D900C5A2BA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFA26F9222D25D900C5A2BA /* OpenGLES.framework */; };
+		FFFA2717222D2E5000C5A2BA /* NSData+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2715222D2E5000C5A2BA /* NSData+Compression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2718222D2E5000C5A2BA /* NSData+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2716222D2E5000C5A2BA /* NSData+Compression.m */; };
+		FFFA271B222D2E8C00C5A2BA /* HAVParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2719222D2E8C00C5A2BA /* HAVParticle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA271C222D2E8C00C5A2BA /* HAVParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA271A222D2E8C00C5A2BA /* HAVParticle.m */; };
+		FFFA271F222D2EEA00C5A2BA /* HAVParticleEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA271D222D2EEA00C5A2BA /* HAVParticleEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2720222D2EEA00C5A2BA /* HAVParticleEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA271E222D2EEA00C5A2BA /* HAVParticleEmitter.m */; };
+		FFFA2723222D464500C5A2BA /* HAVParticleFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2721222D464500C5A2BA /* HAVParticleFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2724222D464500C5A2BA /* HAVParticleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2722222D464500C5A2BA /* HAVParticleFilter.m */; };
+		FFFA2727222D468000C5A2BA /* HAVParticleFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2725222D468000C5A2BA /* HAVParticleFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2728222D468000C5A2BA /* HAVParticleFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2726222D468000C5A2BA /* HAVParticleFilterController.m */; };
+		FFFA272B222D46C500C5A2BA /* HAVParticleShader.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2729222D46C500C5A2BA /* HAVParticleShader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA272C222D46C500C5A2BA /* HAVParticleShader.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA272A222D46C500C5A2BA /* HAVParticleShader.m */; };
+		FFFA272F222D46F800C5A2BA /* HAVParticleSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA272D222D46F800C5A2BA /* HAVParticleSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2730222D46F800C5A2BA /* HAVParticleSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA272E222D46F800C5A2BA /* HAVParticleSystem.m */; };
+		FFFA2737222D55F100C5A2BA /* DCEffectController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2735222D55F100C5A2BA /* DCEffectController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA2738222D55F100C5A2BA /* DCEffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA2736222D55F100C5A2BA /* DCEffectController.m */; };
+		FFFA273B222D572500C5A2BA /* HAVVideoWaterMark.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFA2739222D572500C5A2BA /* HAVVideoWaterMark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFA273C222D572500C5A2BA /* HAVVideoWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFA273A222D572500C5A2BA /* HAVVideoWaterMark.m */; };
+		FFFAF65C23A32B04009DC4EF /* HCutOutFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFAF65A23A32B04009DC4EF /* HCutOutFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFAF65D23A32B04009DC4EF /* HCutOutFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAF65B23A32B04009DC4EF /* HCutOutFilter.m */; };
+		FFFAF66223A32C36009DC4EF /* HCutOutFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFAF66023A32C36009DC4EF /* HCutOutFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFAF66323A32C36009DC4EF /* HCutOutFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAF66123A32C36009DC4EF /* HCutOutFilterController.m */; };
+		FFFB3CDC2243432B0062F74D /* HNormalFBO.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB3CD62243432B0062F74D /* HNormalFBO.m */; };
+		FFFB3CDD2243432B0062F74D /* HGPUBeauty.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB3CD72243432B0062F74D /* HGPUBeauty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFB3CDE2243432B0062F74D /* HGPUBeautyFilterController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB3CD82243432B0062F74D /* HGPUBeautyFilterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFB3CDF2243432B0062F74D /* HGPUBeautyFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB3CD92243432B0062F74D /* HGPUBeautyFilterController.m */; };
+		FFFB3CE02243432B0062F74D /* HNormalFBO.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB3CDA2243432B0062F74D /* HNormalFBO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFB3CE12243432B0062F74D /* HGPUBeauty.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB3CDB2243432B0062F74D /* HGPUBeauty.m */; };
+		FFFB4050224CD33C0062F74D /* HCropFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB404E224CD33C0062F74D /* HCropFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFFB4051224CD33C0062F74D /* HCropFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFB404F224CD33C0062F74D /* HCropFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF441F67239E35AA00DE52F9 /* HWaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWaterMark.h; sourceTree = "<group>"; };
+		FF441F68239E35AA00DE52F9 /* HWaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWaterMark.m; sourceTree = "<group>"; };
+		FF441F6B239E36C100DE52F9 /* HWaterMarkFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWaterMarkFilter.h; sourceTree = "<group>"; };
+		FF441F6C239E36C100DE52F9 /* HWaterMarkFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWaterMarkFilter.m; sourceTree = "<group>"; };
+		FF441F80239E4C5700DE52F9 /* HWatermarkExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWatermarkExport.h; sourceTree = "<group>"; };
+		FF441F81239E4C5700DE52F9 /* HWatermarkExport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWatermarkExport.m; sourceTree = "<group>"; };
+		FF441FB2239F92F200DE52F9 /* HAVAssetReaderOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAssetReaderOutput.h; sourceTree = "<group>"; };
+		FF441FB3239F92F200DE52F9 /* HAVAssetReaderOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAssetReaderOutput.m; sourceTree = "<group>"; };
+		FF441FB6239F936C00DE52F9 /* HAVVideoEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoEffect.h; sourceTree = "<group>"; };
+		FF441FB7239F936C00DE52F9 /* HAVVideoEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoEffect.m; sourceTree = "<group>"; };
+		FF441FBA239F943A00DE52F9 /* HAVVideoEffectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoEffectController.h; sourceTree = "<group>"; };
+		FF441FBB239F943A00DE52F9 /* HAVVideoEffectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoEffectController.m; sourceTree = "<group>"; };
+		FF441FBE239F95EE00DE52F9 /* HAVVideoEffectFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoEffectFilter.h; sourceTree = "<group>"; };
+		FF441FBF239F95EE00DE52F9 /* HAVVideoEffectFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoEffectFilter.m; sourceTree = "<group>"; };
+		FF441FC2239F968C00DE52F9 /* HAVVideoEffectFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoEffectFilterController.h; sourceTree = "<group>"; };
+		FF441FC3239F968C00DE52F9 /* HAVVideoEffectFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoEffectFilterController.m; sourceTree = "<group>"; };
+		FF441FC6239F974300DE52F9 /* HAVVideoEffectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoEffectManager.h; sourceTree = "<group>"; };
+		FF441FC7239F974300DE52F9 /* HAVVideoEffectManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoEffectManager.m; sourceTree = "<group>"; };
+		FF441FCA239F97A600DE52F9 /* HAVVideoEffectProgramManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoEffectProgramManager.h; sourceTree = "<group>"; };
+		FF441FCB239F97A600DE52F9 /* HAVVideoEffectProgramManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoEffectProgramManager.m; sourceTree = "<group>"; };
+		FFFA22A122295FE400C5A2BA /* VideoEditKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VideoEditKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFA22A422295FE400C5A2BA /* VideoEditKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditKit.h; sourceTree = "<group>"; };
+		FFFA22A522295FE400C5A2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFA256D2229614A00C5A2BA /* GPUKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUKit.framework; path = frameworks/GPUKit.framework; sourceTree = "<group>"; };
+		FFFA25B0222966CB00C5A2BA /* DCSpecialEffectsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSpecialEffectsView.h; sourceTree = "<group>"; };
+		FFFA25B1222966CB00C5A2BA /* DCSpecialEffectsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSpecialEffectsView.m; sourceTree = "<group>"; };
+		FFFA25BC222CCD9A00C5A2BA /* VideoEditKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditKit.pch; sourceTree = "<group>"; };
+		FFFA25BD222CCEEB00C5A2BA /* DCVideoPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCVideoPreview.h; sourceTree = "<group>"; };
+		FFFA25BE222CCEEB00C5A2BA /* DCVideoPreview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCVideoPreview.m; sourceTree = "<group>"; };
+		FFFA25C1222CD02A00C5A2BA /* DCVideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCVideoCamera.h; sourceTree = "<group>"; };
+		FFFA25C2222CD02A00C5A2BA /* DCVideoCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCVideoCamera.m; sourceTree = "<group>"; };
+		FFFA25D1222CD34C00C5A2BA /* AVAsset+MetalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAsset+MetalData.h"; sourceTree = "<group>"; };
+		FFFA25D2222CD34C00C5A2BA /* AVAsset+MetalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+MetalData.m"; sourceTree = "<group>"; };
+		FFFA25D5222CD3AB00C5A2BA /* AVURLAsset+MetalData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVURLAsset+MetalData.h"; sourceTree = "<group>"; };
+		FFFA25D6222CD3AB00C5A2BA /* AVURLAsset+MetalData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVURLAsset+MetalData.m"; sourceTree = "<group>"; };
+		FFFA25D9222CD43100C5A2BA /* HAVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAudioPlayer.h; sourceTree = "<group>"; };
+		FFFA25DA222CD43100C5A2BA /* HAVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAudioPlayer.m; sourceTree = "<group>"; };
+		FFFA25DD222CD49000C5A2BA /* HAVAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAlignment.h; sourceTree = "<group>"; };
+		FFFA25E1222CD4B600C5A2BA /* HAVAudioItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAudioItem.h; sourceTree = "<group>"; };
+		FFFA25E2222CD4B600C5A2BA /* HAVAudioItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAudioItem.m; sourceTree = "<group>"; };
+		FFFA25E9222CD59200C5A2BA /* HAVAudioTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAudioTrack.h; sourceTree = "<group>"; };
+		FFFA25EA222CD59200C5A2BA /* HAVAudioTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAudioTrack.m; sourceTree = "<group>"; };
+		FFFA25ED222CD5BE00C5A2BA /* HAVAudioRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAudioRender.h; sourceTree = "<group>"; };
+		FFFA25EE222CD5BE00C5A2BA /* HAVAudioRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAudioRender.m; sourceTree = "<group>"; };
+		FFFA25F1222CD62600C5A2BA /* HAVDataSourceDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVDataSourceDelegate.h; sourceTree = "<group>"; };
+		FFFA25F3222CD66C00C5A2BA /* HAVFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVFileManager.h; sourceTree = "<group>"; };
+		FFFA25F4222CD66C00C5A2BA /* HAVFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVFileManager.m; sourceTree = "<group>"; };
+		FFFA25F7222CD6D600C5A2BA /* HAVGPUImageMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGPUImageMovie.h; sourceTree = "<group>"; };
+		FFFA25F8222CD6D600C5A2BA /* HAVGPUImageMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGPUImageMovie.m; sourceTree = "<group>"; };
+		FFFA25FB222CD71400C5A2BA /* HAVGPUImageMovieMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGPUImageMovieMix.h; sourceTree = "<group>"; };
+		FFFA25FC222CD71400C5A2BA /* HAVGPUImageMovieMix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGPUImageMovieMix.m; sourceTree = "<group>"; };
+		FFFA25FF222CD77000C5A2BA /* HAVImageGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVImageGenerator.h; sourceTree = "<group>"; };
+		FFFA2600222CD77000C5A2BA /* HAVImageGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVImageGenerator.m; sourceTree = "<group>"; };
+		FFFA2603222CD7AC00C5A2BA /* HAVMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVMetadata.h; sourceTree = "<group>"; };
+		FFFA2604222CD7AC00C5A2BA /* HAVMetadata.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVMetadata.m; sourceTree = "<group>"; };
+		FFFA2607222CD7E800C5A2BA /* HAVMetadataRetreiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVMetadataRetreiver.h; sourceTree = "<group>"; };
+		FFFA2608222CD7E800C5A2BA /* HAVMetadataRetreiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVMetadataRetreiver.m; sourceTree = "<group>"; };
+		FFFA260B222CD85200C5A2BA /* HAVMovieFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVMovieFileReader.h; sourceTree = "<group>"; };
+		FFFA260C222CD85200C5A2BA /* HAVMovieFileReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVMovieFileReader.m; sourceTree = "<group>"; };
+		FFFA260F222CD8E600C5A2BA /* HAVMovieReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVMovieReader.h; sourceTree = "<group>"; };
+		FFFA2610222CD8E600C5A2BA /* HAVMovieReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVMovieReader.m; sourceTree = "<group>"; };
+		FFFA2613222CD94000C5A2BA /* HAVMutiTracksPlayerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVMutiTracksPlayerItem.h; sourceTree = "<group>"; };
+		FFFA2614222CD94000C5A2BA /* HAVMutiTracksPlayerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVMutiTracksPlayerItem.m; sourceTree = "<group>"; };
+		FFFA2617222CD97D00C5A2BA /* HAVPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVPlayer.h; sourceTree = "<group>"; };
+		FFFA2618222CD97D00C5A2BA /* HAVPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVPlayer.m; sourceTree = "<group>"; };
+		FFFA261B222CD9C600C5A2BA /* HAVPlayerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVPlayerItem.h; sourceTree = "<group>"; };
+		FFFA261C222CD9C600C5A2BA /* HAVPlayerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVPlayerItem.m; sourceTree = "<group>"; };
+		FFFA261F222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVQuickSpeedImageMovie.h; sourceTree = "<group>"; };
+		FFFA2620222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVQuickSpeedImageMovie.m; sourceTree = "<group>"; };
+		FFFA2623222CDA5600C5A2BA /* HAVSpecialEffectsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVSpecialEffectsController.h; sourceTree = "<group>"; };
+		FFFA2624222CDA5600C5A2BA /* HAVSpecialEffectsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVSpecialEffectsController.m; sourceTree = "<group>"; };
+		FFFA2627222CDA9D00C5A2BA /* HAVSynthesis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVSynthesis.h; sourceTree = "<group>"; };
+		FFFA2628222CDA9D00C5A2BA /* HAVSynthesis.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVSynthesis.m; sourceTree = "<group>"; };
+		FFFA262B222CDADE00C5A2BA /* HAVVideoClip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoClip.h; sourceTree = "<group>"; };
+		FFFA262C222CDADE00C5A2BA /* HAVVideoClip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoClip.m; sourceTree = "<group>"; };
+		FFFA262F222CDB2200C5A2BA /* HAVVideoExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoExport.h; sourceTree = "<group>"; };
+		FFFA2630222CDB2200C5A2BA /* HAVVideoExport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoExport.m; sourceTree = "<group>"; };
+		FFFA2633222CDB6800C5A2BA /* HAVVideoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoItem.h; sourceTree = "<group>"; };
+		FFFA2634222CDB6800C5A2BA /* HAVVideoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoItem.m; sourceTree = "<group>"; };
+		FFFA2637222CDB9A00C5A2BA /* HAVVideoSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoSize.h; sourceTree = "<group>"; };
+		FFFA263B222CDBBF00C5A2BA /* HAVVideoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoTrack.h; sourceTree = "<group>"; };
+		FFFA263C222CDBBF00C5A2BA /* HAVVideoTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoTrack.m; sourceTree = "<group>"; };
+		FFFA263F222CDBEE00C5A2BA /* HAVVideoTrackItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoTrackItem.h; sourceTree = "<group>"; };
+		FFFA2640222CDBEE00C5A2BA /* HAVVideoTrackItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoTrackItem.m; sourceTree = "<group>"; };
+		FFFA2643222CDC8A00C5A2BA /* HAVAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAsset.h; sourceTree = "<group>"; };
+		FFFA2644222CDC8A00C5A2BA /* HAVAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAsset.m; sourceTree = "<group>"; };
+		FFFA2647222CDCCA00C5A2BA /* HAVAssetItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVAssetItem.h; sourceTree = "<group>"; };
+		FFFA2648222CDCCA00C5A2BA /* HAVAssetItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVAssetItem.m; sourceTree = "<group>"; };
+		FFFA264B222CDD0E00C5A2BA /* HAVMoviePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVMoviePlayer.h; sourceTree = "<group>"; };
+		FFFA264C222CDD0E00C5A2BA /* HAVMoviePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVMoviePlayer.m; sourceTree = "<group>"; };
+		FFFA264F222CE31900C5A2BA /* DCMovieAssetExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCMovieAssetExport.h; sourceTree = "<group>"; };
+		FFFA2650222CE31900C5A2BA /* DCMovieAssetExport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCMovieAssetExport.m; sourceTree = "<group>"; };
+		FFFA2653222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAssetTrack+GPUImageRotation.h"; sourceTree = "<group>"; };
+		FFFA2654222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAssetTrack+GPUImageRotation.m"; sourceTree = "<group>"; };
+		FFFA2657222CFF3200C5A2BA /* HAVGPUImageFilterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGPUImageFilterManager.h; sourceTree = "<group>"; };
+		FFFA2658222CFF3200C5A2BA /* HAVGPUImageFilterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGPUImageFilterManager.m; sourceTree = "<group>"; };
+		FFFA265D222D019900C5A2BA /* HAVGPUImageFilterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGPUImageFilterProtocol.h; sourceTree = "<group>"; };
+		FFFA2662222D075B00C5A2BA /* QAVFaceTrackObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAVFaceTrackObject.h; sourceTree = "<group>"; };
+		FFFA2663222D075B00C5A2BA /* CMOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMOrientation.h; sourceTree = "<group>"; };
+		FFFA2666222D075B00C5A2BA /* cdcn95_verify_iter_50000.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdcn95_verify_iter_50000.dat; sourceTree = "<group>"; };
+		FFFA2667222D075B00C5A2BA /* nocross_12_17w.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = nocross_12_17w.dat; sourceTree = "<group>"; };
+		FFFA2668222D075B00C5A2BA /* cdcn_iter_500000.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdcn_iter_500000.dat; sourceTree = "<group>"; };
+		FFFA2669222D075B00C5A2BA /* frcnn_full_cross_500000.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = frcnn_full_cross_500000.dat; sourceTree = "<group>"; };
+		FFFA266A222D075B00C5A2BA /* cdcn_iter_500000_v52017_edged.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdcn_iter_500000_v52017_edged.dat; sourceTree = "<group>"; };
+		FFFA266B222D075B00C5A2BA /* model95_360.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = model95_360.bin; sourceTree = "<group>"; };
+		FFFA266C222D075B00C5A2BA /* cdcn95_verify_EU2zo_iter_50000_noLargeedged.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = cdcn95_verify_EU2zo_iter_50000_noLargeedged.dat; sourceTree = "<group>"; };
+		FFFA266D222D075B00C5A2BA /* model95_EU2ZO_noPre_1122_PP_D5_015_noAug.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = model95_EU2ZO_noPre_1122_PP_D5_015_noAug.bin; sourceTree = "<group>"; };
+		FFFA266E222D075B00C5A2BA /* CMOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMOrientation.m; sourceTree = "<group>"; };
+		FFFA266F222D075B00C5A2BA /* QAVFaceTrackObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAVFaceTrackObject.m; sourceTree = "<group>"; };
+		FFFA2670222D075B00C5A2BA /* QAVFaceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAVFaceTracker.h; sourceTree = "<group>"; };
+		FFFA2671222D075B00C5A2BA /* QAVFaceTracker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QAVFaceTracker.mm; sourceTree = "<group>"; };
+		FFFA2682222D08FB00C5A2BA /* HAVSpliteFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVSpliteFilter.h; sourceTree = "<group>"; };
+		FFFA2683222D08FB00C5A2BA /* HAVSpliteFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVSpliteFilter.m; sourceTree = "<group>"; };
+		FFFA2686222D09AF00C5A2BA /* HAVSpliteFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVSpliteFilterController.h; sourceTree = "<group>"; };
+		FFFA2687222D09AF00C5A2BA /* HAVSpliteFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVSpliteFilterController.m; sourceTree = "<group>"; };
+		FFFA268B222D0B3400C5A2BA /* HAVLutImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVLutImageFilter.h; sourceTree = "<group>"; };
+		FFFA268C222D0B3400C5A2BA /* HAVLutImageFilter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HAVLutImageFilter.mm; sourceTree = "<group>"; };
+		FFFA268F222D0B9800C5A2BA /* HAVLutImageFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVLutImageFilterController.h; sourceTree = "<group>"; };
+		FFFA2690222D0B9800C5A2BA /* HAVLutImageFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVLutImageFilterController.m; sourceTree = "<group>"; };
+		FFFA2693222D0BF100C5A2BA /* HAVGPUImageLutFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGPUImageLutFilter.h; sourceTree = "<group>"; };
+		FFFA2694222D0BF100C5A2BA /* HAVGPUImageLutFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGPUImageLutFilter.m; sourceTree = "<group>"; };
+		FFFA2697222D0C3700C5A2BA /* HAVGPULightLutFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGPULightLutFilter.h; sourceTree = "<group>"; };
+		FFFA2698222D0C3700C5A2BA /* HAVGPULightLutFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGPULightLutFilter.m; sourceTree = "<group>"; };
+		FFFA26CA222D136800C5A2BA /* HAVGifFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGifFilter.h; sourceTree = "<group>"; };
+		FFFA26CB222D136800C5A2BA /* HAVGifFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGifFilter.m; sourceTree = "<group>"; };
+		FFFA26CE222D13CD00C5A2BA /* HAVGifFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVGifFilterController.h; sourceTree = "<group>"; };
+		FFFA26CF222D13CD00C5A2BA /* HAVGifFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVGifFilterController.m; sourceTree = "<group>"; };
+		FFFA26D3222D16E500C5A2BA /* HAVScrawAndTextFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVScrawAndTextFilter.h; sourceTree = "<group>"; };
+		FFFA26D4222D16E500C5A2BA /* HAVScrawAndTextFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVScrawAndTextFilter.m; sourceTree = "<group>"; };
+		FFFA26D7222D175900C5A2BA /* HAVScrawAndTextFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVScrawAndTextFilterController.h; sourceTree = "<group>"; };
+		FFFA26D8222D175900C5A2BA /* HAVScrawAndTextFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVScrawAndTextFilterController.m; sourceTree = "<group>"; };
+		FFFA26DC222D18DB00C5A2BA /* HAVTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVTools.h; sourceTree = "<group>"; };
+		FFFA26DD222D18DB00C5A2BA /* HAVTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVTools.m; sourceTree = "<group>"; };
+		FFFA26E0222D190600C5A2BA /* HOpenGLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOpenGLTools.h; sourceTree = "<group>"; };
+		FFFA26F1222D25C800C5A2BA /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		FFFA26F2222D25C800C5A2BA /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = SDKROOT; };
+		FFFA26F3222D25C800C5A2BA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		FFFA26F7222D25D100C5A2BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FFFA26F9222D25D900C5A2BA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FFFA2715222D2E5000C5A2BA /* NSData+Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Compression.h"; sourceTree = "<group>"; };
+		FFFA2716222D2E5000C5A2BA /* NSData+Compression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+Compression.m"; sourceTree = "<group>"; };
+		FFFA2719222D2E8C00C5A2BA /* HAVParticle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVParticle.h; sourceTree = "<group>"; };
+		FFFA271A222D2E8C00C5A2BA /* HAVParticle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVParticle.m; sourceTree = "<group>"; };
+		FFFA271D222D2EEA00C5A2BA /* HAVParticleEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVParticleEmitter.h; sourceTree = "<group>"; };
+		FFFA271E222D2EEA00C5A2BA /* HAVParticleEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVParticleEmitter.m; sourceTree = "<group>"; };
+		FFFA2721222D464500C5A2BA /* HAVParticleFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVParticleFilter.h; sourceTree = "<group>"; };
+		FFFA2722222D464500C5A2BA /* HAVParticleFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVParticleFilter.m; sourceTree = "<group>"; };
+		FFFA2725222D468000C5A2BA /* HAVParticleFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVParticleFilterController.h; sourceTree = "<group>"; };
+		FFFA2726222D468000C5A2BA /* HAVParticleFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVParticleFilterController.m; sourceTree = "<group>"; };
+		FFFA2729222D46C500C5A2BA /* HAVParticleShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVParticleShader.h; sourceTree = "<group>"; };
+		FFFA272A222D46C500C5A2BA /* HAVParticleShader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVParticleShader.m; sourceTree = "<group>"; };
+		FFFA272D222D46F800C5A2BA /* HAVParticleSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVParticleSystem.h; sourceTree = "<group>"; };
+		FFFA272E222D46F800C5A2BA /* HAVParticleSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVParticleSystem.m; sourceTree = "<group>"; };
+		FFFA2735222D55F100C5A2BA /* DCEffectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCEffectController.h; sourceTree = "<group>"; };
+		FFFA2736222D55F100C5A2BA /* DCEffectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCEffectController.m; sourceTree = "<group>"; };
+		FFFA2739222D572500C5A2BA /* HAVVideoWaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HAVVideoWaterMark.h; sourceTree = "<group>"; };
+		FFFA273A222D572500C5A2BA /* HAVVideoWaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HAVVideoWaterMark.m; sourceTree = "<group>"; };
+		FFFAF65A23A32B04009DC4EF /* HCutOutFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCutOutFilter.h; sourceTree = "<group>"; };
+		FFFAF65B23A32B04009DC4EF /* HCutOutFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCutOutFilter.m; sourceTree = "<group>"; };
+		FFFAF66023A32C36009DC4EF /* HCutOutFilterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCutOutFilterController.h; sourceTree = "<group>"; };
+		FFFAF66123A32C36009DC4EF /* HCutOutFilterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCutOutFilterController.m; sourceTree = "<group>"; };
+		FFFB3CD62243432B0062F74D /* HNormalFBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNormalFBO.m; sourceTree = "<group>"; };
+		FFFB3CD72243432B0062F74D /* HGPUBeauty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPUBeauty.h; sourceTree = "<group>"; };
+		FFFB3CD82243432B0062F74D /* HGPUBeautyFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPUBeautyFilterController.h; sourceTree = "<group>"; };
+		FFFB3CD92243432B0062F74D /* HGPUBeautyFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPUBeautyFilterController.m; sourceTree = "<group>"; };
+		FFFB3CDA2243432B0062F74D /* HNormalFBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNormalFBO.h; sourceTree = "<group>"; };
+		FFFB3CDB2243432B0062F74D /* HGPUBeauty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPUBeauty.m; sourceTree = "<group>"; };
+		FFFB404E224CD33C0062F74D /* HCropFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCropFilter.h; sourceTree = "<group>"; };
+		FFFB404F224CD33C0062F74D /* HCropFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCropFilter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFA229E22295FE400C5A2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFA26FA222D25D900C5A2BA /* OpenGLES.framework in Frameworks */,
+				FFFA26F8222D25D100C5A2BA /* AVFoundation.framework in Frameworks */,
+				FFFA26F4222D25C800C5A2BA /* MetalKit.framework in Frameworks */,
+				FFFA26F5222D25C800C5A2BA /* MetalPerformanceShaders.framework in Frameworks */,
+				FFFA26F6222D25C800C5A2BA /* Metal.framework in Frameworks */,
+				FFFA256E2229614A00C5A2BA /* GPUKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF441F66239E356300DE52F9 /* watermark */ = {
+			isa = PBXGroup;
+			children = (
+				FF441F67239E35AA00DE52F9 /* HWaterMark.h */,
+				FF441F68239E35AA00DE52F9 /* HWaterMark.m */,
+				FF441F6B239E36C100DE52F9 /* HWaterMarkFilter.h */,
+				FF441F6C239E36C100DE52F9 /* HWaterMarkFilter.m */,
+				FF441F80239E4C5700DE52F9 /* HWatermarkExport.h */,
+				FF441F81239E4C5700DE52F9 /* HWatermarkExport.m */,
+			);
+			path = watermark;
+			sourceTree = "<group>";
+		};
+		FF441FB1239F929600DE52F9 /* videoeffect */ = {
+			isa = PBXGroup;
+			children = (
+				FF441FB2239F92F200DE52F9 /* HAVAssetReaderOutput.h */,
+				FF441FB3239F92F200DE52F9 /* HAVAssetReaderOutput.m */,
+				FF441FB6239F936C00DE52F9 /* HAVVideoEffect.h */,
+				FF441FB7239F936C00DE52F9 /* HAVVideoEffect.m */,
+				FF441FBA239F943A00DE52F9 /* HAVVideoEffectController.h */,
+				FF441FBB239F943A00DE52F9 /* HAVVideoEffectController.m */,
+				FF441FBE239F95EE00DE52F9 /* HAVVideoEffectFilter.h */,
+				FF441FBF239F95EE00DE52F9 /* HAVVideoEffectFilter.m */,
+				FF441FC2239F968C00DE52F9 /* HAVVideoEffectFilterController.h */,
+				FF441FC3239F968C00DE52F9 /* HAVVideoEffectFilterController.m */,
+				FF441FC6239F974300DE52F9 /* HAVVideoEffectManager.h */,
+				FF441FC7239F974300DE52F9 /* HAVVideoEffectManager.m */,
+				FF441FCA239F97A600DE52F9 /* HAVVideoEffectProgramManager.h */,
+				FF441FCB239F97A600DE52F9 /* HAVVideoEffectProgramManager.m */,
+			);
+			path = videoeffect;
+			sourceTree = "<group>";
+		};
+		FFFA229722295FE400C5A2BA = {
+			isa = PBXGroup;
+			children = (
+				FFFA22A322295FE400C5A2BA /* VideoEditKit */,
+				FFFA22A222295FE400C5A2BA /* Products */,
+				FFFA26F0222D25C700C5A2BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFA22A222295FE400C5A2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA22A122295FE400C5A2BA /* VideoEditKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFA22A322295FE400C5A2BA /* VideoEditKit */ = {
+			isa = PBXGroup;
+			children = (
+				FF441FB1239F929600DE52F9 /* videoeffect */,
+				FFFA26DB222D18AA00C5A2BA /* tools */,
+				FFFA25CF222CD30F00C5A2BA /* foundation1 */,
+				FFFA25D0222CD30F00C5A2BA /* foundation2 */,
+				FFFA257B2229621E00C5A2BA /* core */,
+				FFFA25782229621E00C5A2BA /* effects */,
+				FFFA256D2229614A00C5A2BA /* GPUKit.framework */,
+				FFFA22A422295FE400C5A2BA /* VideoEditKit.h */,
+				FFFA25BC222CCD9A00C5A2BA /* VideoEditKit.pch */,
+				FFFA22A522295FE400C5A2BA /* Info.plist */,
+			);
+			path = VideoEditKit;
+			sourceTree = "<group>";
+		};
+		FFFA25782229621E00C5A2BA /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA25792229621E00C5A2BA /* video */,
+				FFFA257A2229621E00C5A2BA /* audio */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+		FFFA25792229621E00C5A2BA /* video */ = {
+			isa = PBXGroup;
+			children = (
+				FF441F66239E356300DE52F9 /* watermark */,
+				FFFB404D224CD2F90062F74D /* crop */,
+				FFFB3CD52243430F0062F74D /* beauty */,
+				FFFA2714222D2E2B00C5A2BA /* particle */,
+				FFFA26D2222D169200C5A2BA /* scrawandtext */,
+				FFFA26C9222D12BB00C5A2BA /* gif */,
+				FFFA268A222D0AF400C5A2BA /* lut */,
+				FFFA2681222D08B200C5A2BA /* splite */,
+				FFFAF65923A32ACA009DC4EF /* cutout */,
+				FFFA2661222D075B00C5A2BA /* QAVFaceTrack */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		FFFA257A2229621E00C5A2BA /* audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		FFFA257B2229621E00C5A2BA /* core */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA25B0222966CB00C5A2BA /* DCSpecialEffectsView.h */,
+				FFFA25B1222966CB00C5A2BA /* DCSpecialEffectsView.m */,
+				FFFA25BD222CCEEB00C5A2BA /* DCVideoPreview.h */,
+				FFFA25BE222CCEEB00C5A2BA /* DCVideoPreview.m */,
+				FFFA25C1222CD02A00C5A2BA /* DCVideoCamera.h */,
+				FFFA25C2222CD02A00C5A2BA /* DCVideoCamera.m */,
+				FFFA264F222CE31900C5A2BA /* DCMovieAssetExport.h */,
+				FFFA2650222CE31900C5A2BA /* DCMovieAssetExport.m */,
+				FFFA2735222D55F100C5A2BA /* DCEffectController.h */,
+				FFFA2736222D55F100C5A2BA /* DCEffectController.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		FFFA25CF222CD30F00C5A2BA /* foundation1 */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA25D1222CD34C00C5A2BA /* AVAsset+MetalData.h */,
+				FFFA25D2222CD34C00C5A2BA /* AVAsset+MetalData.m */,
+				FFFA25D5222CD3AB00C5A2BA /* AVURLAsset+MetalData.h */,
+				FFFA25D6222CD3AB00C5A2BA /* AVURLAsset+MetalData.m */,
+				FFFA25D9222CD43100C5A2BA /* HAVAudioPlayer.h */,
+				FFFA25DA222CD43100C5A2BA /* HAVAudioPlayer.m */,
+				FFFA25DD222CD49000C5A2BA /* HAVAlignment.h */,
+				FFFA25E1222CD4B600C5A2BA /* HAVAudioItem.h */,
+				FFFA25E2222CD4B600C5A2BA /* HAVAudioItem.m */,
+				FFFA25ED222CD5BE00C5A2BA /* HAVAudioRender.h */,
+				FFFA25EE222CD5BE00C5A2BA /* HAVAudioRender.m */,
+				FFFA25E9222CD59200C5A2BA /* HAVAudioTrack.h */,
+				FFFA25EA222CD59200C5A2BA /* HAVAudioTrack.m */,
+				FFFA25F1222CD62600C5A2BA /* HAVDataSourceDelegate.h */,
+				FFFA25F3222CD66C00C5A2BA /* HAVFileManager.h */,
+				FFFA25F4222CD66C00C5A2BA /* HAVFileManager.m */,
+				FFFA25F7222CD6D600C5A2BA /* HAVGPUImageMovie.h */,
+				FFFA25F8222CD6D600C5A2BA /* HAVGPUImageMovie.m */,
+				FFFA25FB222CD71400C5A2BA /* HAVGPUImageMovieMix.h */,
+				FFFA25FC222CD71400C5A2BA /* HAVGPUImageMovieMix.m */,
+				FFFA25FF222CD77000C5A2BA /* HAVImageGenerator.h */,
+				FFFA2600222CD77000C5A2BA /* HAVImageGenerator.m */,
+				FFFA2603222CD7AC00C5A2BA /* HAVMetadata.h */,
+				FFFA2604222CD7AC00C5A2BA /* HAVMetadata.m */,
+				FFFA2607222CD7E800C5A2BA /* HAVMetadataRetreiver.h */,
+				FFFA2608222CD7E800C5A2BA /* HAVMetadataRetreiver.m */,
+				FFFA260B222CD85200C5A2BA /* HAVMovieFileReader.h */,
+				FFFA260C222CD85200C5A2BA /* HAVMovieFileReader.m */,
+				FFFA260F222CD8E600C5A2BA /* HAVMovieReader.h */,
+				FFFA2610222CD8E600C5A2BA /* HAVMovieReader.m */,
+				FFFA2613222CD94000C5A2BA /* HAVMutiTracksPlayerItem.h */,
+				FFFA2614222CD94000C5A2BA /* HAVMutiTracksPlayerItem.m */,
+				FFFA2617222CD97D00C5A2BA /* HAVPlayer.h */,
+				FFFA2618222CD97D00C5A2BA /* HAVPlayer.m */,
+				FFFA261B222CD9C600C5A2BA /* HAVPlayerItem.h */,
+				FFFA261C222CD9C600C5A2BA /* HAVPlayerItem.m */,
+				FFFA261F222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.h */,
+				FFFA2620222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.m */,
+				FFFA2623222CDA5600C5A2BA /* HAVSpecialEffectsController.h */,
+				FFFA2624222CDA5600C5A2BA /* HAVSpecialEffectsController.m */,
+				FFFA2657222CFF3200C5A2BA /* HAVGPUImageFilterManager.h */,
+				FFFA2658222CFF3200C5A2BA /* HAVGPUImageFilterManager.m */,
+				FFFA265D222D019900C5A2BA /* HAVGPUImageFilterProtocol.h */,
+				FFFA2627222CDA9D00C5A2BA /* HAVSynthesis.h */,
+				FFFA2628222CDA9D00C5A2BA /* HAVSynthesis.m */,
+				FFFA262B222CDADE00C5A2BA /* HAVVideoClip.h */,
+				FFFA262C222CDADE00C5A2BA /* HAVVideoClip.m */,
+				FFFA262F222CDB2200C5A2BA /* HAVVideoExport.h */,
+				FFFA2630222CDB2200C5A2BA /* HAVVideoExport.m */,
+				FFFA2633222CDB6800C5A2BA /* HAVVideoItem.h */,
+				FFFA2634222CDB6800C5A2BA /* HAVVideoItem.m */,
+				FFFA2637222CDB9A00C5A2BA /* HAVVideoSize.h */,
+				FFFA263B222CDBBF00C5A2BA /* HAVVideoTrack.h */,
+				FFFA263C222CDBBF00C5A2BA /* HAVVideoTrack.m */,
+				FFFA263F222CDBEE00C5A2BA /* HAVVideoTrackItem.h */,
+				FFFA2640222CDBEE00C5A2BA /* HAVVideoTrackItem.m */,
+			);
+			path = foundation1;
+			sourceTree = "<group>";
+		};
+		FFFA25D0222CD30F00C5A2BA /* foundation2 */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA2643222CDC8A00C5A2BA /* HAVAsset.h */,
+				FFFA2644222CDC8A00C5A2BA /* HAVAsset.m */,
+				FFFA2647222CDCCA00C5A2BA /* HAVAssetItem.h */,
+				FFFA2648222CDCCA00C5A2BA /* HAVAssetItem.m */,
+				FFFA264B222CDD0E00C5A2BA /* HAVMoviePlayer.h */,
+				FFFA264C222CDD0E00C5A2BA /* HAVMoviePlayer.m */,
+				FFFA2653222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.h */,
+				FFFA2654222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.m */,
+				FFFA2739222D572500C5A2BA /* HAVVideoWaterMark.h */,
+				FFFA273A222D572500C5A2BA /* HAVVideoWaterMark.m */,
+			);
+			path = foundation2;
+			sourceTree = "<group>";
+		};
+		FFFA2661222D075B00C5A2BA /* QAVFaceTrack */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA2662222D075B00C5A2BA /* QAVFaceTrackObject.h */,
+				FFFA2663222D075B00C5A2BA /* CMOrientation.h */,
+				FFFA2665222D075B00C5A2BA /* models */,
+				FFFA266E222D075B00C5A2BA /* CMOrientation.m */,
+				FFFA266F222D075B00C5A2BA /* QAVFaceTrackObject.m */,
+				FFFA2670222D075B00C5A2BA /* QAVFaceTracker.h */,
+				FFFA2671222D075B00C5A2BA /* QAVFaceTracker.mm */,
+			);
+			path = QAVFaceTrack;
+			sourceTree = "<group>";
+		};
+		FFFA2665222D075B00C5A2BA /* models */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA2666222D075B00C5A2BA /* cdcn95_verify_iter_50000.dat */,
+				FFFA2667222D075B00C5A2BA /* nocross_12_17w.dat */,
+				FFFA2668222D075B00C5A2BA /* cdcn_iter_500000.dat */,
+				FFFA2669222D075B00C5A2BA /* frcnn_full_cross_500000.dat */,
+				FFFA266A222D075B00C5A2BA /* cdcn_iter_500000_v52017_edged.dat */,
+				FFFA266B222D075B00C5A2BA /* model95_360.bin */,
+				FFFA266C222D075B00C5A2BA /* cdcn95_verify_EU2zo_iter_50000_noLargeedged.dat */,
+				FFFA266D222D075B00C5A2BA /* model95_EU2ZO_noPre_1122_PP_D5_015_noAug.bin */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		FFFA2681222D08B200C5A2BA /* splite */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA2682222D08FB00C5A2BA /* HAVSpliteFilter.h */,
+				FFFA2683222D08FB00C5A2BA /* HAVSpliteFilter.m */,
+				FFFA2686222D09AF00C5A2BA /* HAVSpliteFilterController.h */,
+				FFFA2687222D09AF00C5A2BA /* HAVSpliteFilterController.m */,
+			);
+			path = splite;
+			sourceTree = "<group>";
+		};
+		FFFA268A222D0AF400C5A2BA /* lut */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA268B222D0B3400C5A2BA /* HAVLutImageFilter.h */,
+				FFFA268C222D0B3400C5A2BA /* HAVLutImageFilter.mm */,
+				FFFA268F222D0B9800C5A2BA /* HAVLutImageFilterController.h */,
+				FFFA2690222D0B9800C5A2BA /* HAVLutImageFilterController.m */,
+				FFFA2693222D0BF100C5A2BA /* HAVGPUImageLutFilter.h */,
+				FFFA2694222D0BF100C5A2BA /* HAVGPUImageLutFilter.m */,
+				FFFA2697222D0C3700C5A2BA /* HAVGPULightLutFilter.h */,
+				FFFA2698222D0C3700C5A2BA /* HAVGPULightLutFilter.m */,
+			);
+			path = lut;
+			sourceTree = "<group>";
+		};
+		FFFA26C9222D12BB00C5A2BA /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA26CA222D136800C5A2BA /* HAVGifFilter.h */,
+				FFFA26CB222D136800C5A2BA /* HAVGifFilter.m */,
+				FFFA26CE222D13CD00C5A2BA /* HAVGifFilterController.h */,
+				FFFA26CF222D13CD00C5A2BA /* HAVGifFilterController.m */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		FFFA26D2222D169200C5A2BA /* scrawandtext */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA26D3222D16E500C5A2BA /* HAVScrawAndTextFilter.h */,
+				FFFA26D4222D16E500C5A2BA /* HAVScrawAndTextFilter.m */,
+				FFFA26D7222D175900C5A2BA /* HAVScrawAndTextFilterController.h */,
+				FFFA26D8222D175900C5A2BA /* HAVScrawAndTextFilterController.m */,
+			);
+			path = scrawandtext;
+			sourceTree = "<group>";
+		};
+		FFFA26DB222D18AA00C5A2BA /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA26DC222D18DB00C5A2BA /* HAVTools.h */,
+				FFFA26DD222D18DB00C5A2BA /* HAVTools.m */,
+				FFFA26E0222D190600C5A2BA /* HOpenGLTools.h */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		FFFA26F0222D25C700C5A2BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA26F9222D25D900C5A2BA /* OpenGLES.framework */,
+				FFFA26F7222D25D100C5A2BA /* AVFoundation.framework */,
+				FFFA26F3222D25C800C5A2BA /* Metal.framework */,
+				FFFA26F1222D25C800C5A2BA /* MetalKit.framework */,
+				FFFA26F2222D25C800C5A2BA /* MetalPerformanceShaders.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFFA2714222D2E2B00C5A2BA /* particle */ = {
+			isa = PBXGroup;
+			children = (
+				FFFA2715222D2E5000C5A2BA /* NSData+Compression.h */,
+				FFFA2716222D2E5000C5A2BA /* NSData+Compression.m */,
+				FFFA2719222D2E8C00C5A2BA /* HAVParticle.h */,
+				FFFA271A222D2E8C00C5A2BA /* HAVParticle.m */,
+				FFFA271D222D2EEA00C5A2BA /* HAVParticleEmitter.h */,
+				FFFA271E222D2EEA00C5A2BA /* HAVParticleEmitter.m */,
+				FFFA2721222D464500C5A2BA /* HAVParticleFilter.h */,
+				FFFA2722222D464500C5A2BA /* HAVParticleFilter.m */,
+				FFFA2725222D468000C5A2BA /* HAVParticleFilterController.h */,
+				FFFA2726222D468000C5A2BA /* HAVParticleFilterController.m */,
+				FFFA2729222D46C500C5A2BA /* HAVParticleShader.h */,
+				FFFA272A222D46C500C5A2BA /* HAVParticleShader.m */,
+				FFFA272D222D46F800C5A2BA /* HAVParticleSystem.h */,
+				FFFA272E222D46F800C5A2BA /* HAVParticleSystem.m */,
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
+		FFFAF65923A32ACA009DC4EF /* cutout */ = {
+			isa = PBXGroup;
+			children = (
+				FFFAF65A23A32B04009DC4EF /* HCutOutFilter.h */,
+				FFFAF65B23A32B04009DC4EF /* HCutOutFilter.m */,
+				FFFAF66023A32C36009DC4EF /* HCutOutFilterController.h */,
+				FFFAF66123A32C36009DC4EF /* HCutOutFilterController.m */,
+			);
+			path = cutout;
+			sourceTree = "<group>";
+		};
+		FFFB3CD52243430F0062F74D /* beauty */ = {
+			isa = PBXGroup;
+			children = (
+				FFFB3CD72243432B0062F74D /* HGPUBeauty.h */,
+				FFFB3CDB2243432B0062F74D /* HGPUBeauty.m */,
+				FFFB3CD82243432B0062F74D /* HGPUBeautyFilterController.h */,
+				FFFB3CD92243432B0062F74D /* HGPUBeautyFilterController.m */,
+				FFFB3CDA2243432B0062F74D /* HNormalFBO.h */,
+				FFFB3CD62243432B0062F74D /* HNormalFBO.m */,
+			);
+			path = beauty;
+			sourceTree = "<group>";
+		};
+		FFFB404D224CD2F90062F74D /* crop */ = {
+			isa = PBXGroup;
+			children = (
+				FFFB404E224CD33C0062F74D /* HCropFilter.h */,
+				FFFB404F224CD33C0062F74D /* HCropFilter.m */,
+			);
+			path = crop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FFFA229C22295FE400C5A2BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFA2641222CDBEE00C5A2BA /* HAVVideoTrackItem.h in Headers */,
+				FFFA25E3222CD4B600C5A2BA /* HAVAudioItem.h in Headers */,
+				FFFA268D222D0B3400C5A2BA /* HAVLutImageFilter.h in Headers */,
+				FFFA2605222CD7AC00C5A2BA /* HAVMetadata.h in Headers */,
+				FFFA25D7222CD3AB00C5A2BA /* AVURLAsset+MetalData.h in Headers */,
+				FFFA26CC222D136800C5A2BA /* HAVGifFilter.h in Headers */,
+				FFFA2695222D0BF100C5A2BA /* HAVGPUImageLutFilter.h in Headers */,
+				FFFA25D3222CD34C00C5A2BA /* AVAsset+MetalData.h in Headers */,
+				FFFA2609222CD7E800C5A2BA /* HAVMetadataRetreiver.h in Headers */,
+				FFFA265E222D019900C5A2BA /* HAVGPUImageFilterProtocol.h in Headers */,
+				FFFA22A622295FE400C5A2BA /* VideoEditKit.h in Headers */,
+				FFFA2691222D0B9800C5A2BA /* HAVLutImageFilterController.h in Headers */,
+				FFFA25F2222CD62600C5A2BA /* HAVDataSourceDelegate.h in Headers */,
+				FFFA2672222D075C00C5A2BA /* QAVFaceTrackObject.h in Headers */,
+				FFFA2639222CDB9A00C5A2BA /* HAVVideoSize.h in Headers */,
+				FFFA2673222D075C00C5A2BA /* CMOrientation.h in Headers */,
+				FFFA2615222CD94000C5A2BA /* HAVMutiTracksPlayerItem.h in Headers */,
+				FFFA25BF222CCEEB00C5A2BA /* DCVideoPreview.h in Headers */,
+				FFFA26D9222D175900C5A2BA /* HAVScrawAndTextFilterController.h in Headers */,
+				FFFA25F5222CD66C00C5A2BA /* HAVFileManager.h in Headers */,
+				FFFA2631222CDB2200C5A2BA /* HAVVideoExport.h in Headers */,
+				FFFA2688222D09AF00C5A2BA /* HAVSpliteFilterController.h in Headers */,
+				FFFA2635222CDB6800C5A2BA /* HAVVideoItem.h in Headers */,
+				FFFA25FD222CD71400C5A2BA /* HAVGPUImageMovieMix.h in Headers */,
+				FFFA25DB222CD43100C5A2BA /* HAVAudioPlayer.h in Headers */,
+				FFFA263D222CDBBF00C5A2BA /* HAVVideoTrack.h in Headers */,
+				FFFA26D0222D13CD00C5A2BA /* HAVGifFilterController.h in Headers */,
+				FFFA260D222CD85200C5A2BA /* HAVMovieFileReader.h in Headers */,
+				FFFA26E1222D190600C5A2BA /* HOpenGLTools.h in Headers */,
+				FFFA2655222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.h in Headers */,
+				FFFA2645222CDC8A00C5A2BA /* HAVAsset.h in Headers */,
+				FFFA2619222CD97D00C5A2BA /* HAVPlayer.h in Headers */,
+				FFFA26D5222D16E500C5A2BA /* HAVScrawAndTextFilter.h in Headers */,
+				FFFA2684222D08FB00C5A2BA /* HAVSpliteFilter.h in Headers */,
+				FFFA2649222CDCCA00C5A2BA /* HAVAssetItem.h in Headers */,
+				FFFA25C3222CD02A00C5A2BA /* DCVideoCamera.h in Headers */,
+				FFFA261D222CD9C600C5A2BA /* HAVPlayerItem.h in Headers */,
+				FFFA2611222CD8E600C5A2BA /* HAVMovieReader.h in Headers */,
+				FFFA26DE222D18DB00C5A2BA /* HAVTools.h in Headers */,
+				FFFA262D222CDADE00C5A2BA /* HAVVideoClip.h in Headers */,
+				FFFA2699222D0C3700C5A2BA /* HAVGPULightLutFilter.h in Headers */,
+				FFFA25B2222966CB00C5A2BA /* DCSpecialEffectsView.h in Headers */,
+				FFFA2651222CE31900C5A2BA /* DCMovieAssetExport.h in Headers */,
+				FFFA272B222D46C500C5A2BA /* HAVParticleShader.h in Headers */,
+				FFFA2727222D468000C5A2BA /* HAVParticleFilterController.h in Headers */,
+				FFFA2723222D464500C5A2BA /* HAVParticleFilter.h in Headers */,
+				FFFA271F222D2EEA00C5A2BA /* HAVParticleEmitter.h in Headers */,
+				FFFA272F222D46F800C5A2BA /* HAVParticleSystem.h in Headers */,
+				FFFA271B222D2E8C00C5A2BA /* HAVParticle.h in Headers */,
+				FFFA2717222D2E5000C5A2BA /* NSData+Compression.h in Headers */,
+				FFFA2659222CFF3200C5A2BA /* HAVGPUImageFilterManager.h in Headers */,
+				FFFA25DF222CD49000C5A2BA /* HAVAlignment.h in Headers */,
+				FFFA25F9222CD6D600C5A2BA /* HAVGPUImageMovie.h in Headers */,
+				FFFA25EB222CD59200C5A2BA /* HAVAudioTrack.h in Headers */,
+				FFFA2601222CD77000C5A2BA /* HAVImageGenerator.h in Headers */,
+				FFFA2621222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.h in Headers */,
+				FFFA2629222CDA9D00C5A2BA /* HAVSynthesis.h in Headers */,
+				FFFA25EF222CD5BE00C5A2BA /* HAVAudioRender.h in Headers */,
+				FFFA264D222CDD0E00C5A2BA /* HAVMoviePlayer.h in Headers */,
+				FFFA2737222D55F100C5A2BA /* DCEffectController.h in Headers */,
+				FFFB3CDE2243432B0062F74D /* HGPUBeautyFilterController.h in Headers */,
+				FFFB3CDD2243432B0062F74D /* HGPUBeauty.h in Headers */,
+				FFFB3CE02243432B0062F74D /* HNormalFBO.h in Headers */,
+				FF441FCC239F97A600DE52F9 /* HAVVideoEffectProgramManager.h in Headers */,
+				FF441FB8239F936C00DE52F9 /* HAVVideoEffect.h in Headers */,
+				FF441FC4239F968C00DE52F9 /* HAVVideoEffectFilterController.h in Headers */,
+				FF441FC0239F95EE00DE52F9 /* HAVVideoEffectFilter.h in Headers */,
+				FF441FC8239F974300DE52F9 /* HAVVideoEffectManager.h in Headers */,
+				FF441FBC239F943A00DE52F9 /* HAVVideoEffectController.h in Headers */,
+				FF441FB4239F92F200DE52F9 /* HAVAssetReaderOutput.h in Headers */,
+				FFFA2625222CDA5600C5A2BA /* HAVSpecialEffectsController.h in Headers */,
+				FFFA273B222D572500C5A2BA /* HAVVideoWaterMark.h in Headers */,
+				FF441F6D239E36C100DE52F9 /* HWaterMarkFilter.h in Headers */,
+				FF441F69239E35AA00DE52F9 /* HWaterMark.h in Headers */,
+				FFFB4050224CD33C0062F74D /* HCropFilter.h in Headers */,
+				FFFAF65C23A32B04009DC4EF /* HCutOutFilter.h in Headers */,
+				FFFAF66223A32C36009DC4EF /* HCutOutFilterController.h in Headers */,
+				FF441F82239E4C5700DE52F9 /* HWatermarkExport.h in Headers */,
+				FFFA267F222D075C00C5A2BA /* QAVFaceTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FFFA22A022295FE400C5A2BA /* VideoEditKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFA22A922295FE400C5A2BA /* Build configuration list for PBXNativeTarget "VideoEditKit" */;
+			buildPhases = (
+				FFFA229C22295FE400C5A2BA /* Headers */,
+				FFFA229D22295FE400C5A2BA /* Sources */,
+				FFFA229E22295FE400C5A2BA /* Frameworks */,
+				FFFA229F22295FE400C5A2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoEditKit;
+			productName = VideoEditKit;
+			productReference = FFFA22A122295FE400C5A2BA /* VideoEditKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFA229822295FE400C5A2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hsp;
+				TargetAttributes = {
+					FFFA22A022295FE400C5A2BA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FFFA229B22295FE400C5A2BA /* Build configuration list for PBXProject "VideoEditKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFFA229722295FE400C5A2BA;
+			productRefGroup = FFFA22A222295FE400C5A2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFA22A022295FE400C5A2BA /* VideoEditKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFA229F22295FE400C5A2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFA267B222D075C00C5A2BA /* cdcn95_verify_EU2zo_iter_50000_noLargeedged.dat in Resources */,
+				FFFA2678222D075C00C5A2BA /* frcnn_full_cross_500000.dat in Resources */,
+				FFFA2676222D075C00C5A2BA /* nocross_12_17w.dat in Resources */,
+				FFFA267C222D075C00C5A2BA /* model95_EU2ZO_noPre_1122_PP_D5_015_noAug.bin in Resources */,
+				FFFA2675222D075C00C5A2BA /* cdcn95_verify_iter_50000.dat in Resources */,
+				FFFA267A222D075C00C5A2BA /* model95_360.bin in Resources */,
+				FFFA2677222D075C00C5A2BA /* cdcn_iter_500000.dat in Resources */,
+				FFFA2679222D075C00C5A2BA /* cdcn_iter_500000_v52017_edged.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFA229D22295FE400C5A2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF441FBD239F943A00DE52F9 /* HAVVideoEffectController.m in Sources */,
+				FFFA26DA222D175900C5A2BA /* HAVScrawAndTextFilterController.m in Sources */,
+				FF441FB9239F936C00DE52F9 /* HAVVideoEffect.m in Sources */,
+				FFFA25C4222CD02A00C5A2BA /* DCVideoCamera.m in Sources */,
+				FFFA268E222D0B3400C5A2BA /* HAVLutImageFilter.mm in Sources */,
+				FF441F6E239E36C100DE52F9 /* HWaterMarkFilter.m in Sources */,
+				FFFA261E222CD9C600C5A2BA /* HAVPlayerItem.m in Sources */,
+				FFFA272C222D46C500C5A2BA /* HAVParticleShader.m in Sources */,
+				FFFA2602222CD77000C5A2BA /* HAVImageGenerator.m in Sources */,
+				FFFA267E222D075C00C5A2BA /* QAVFaceTrackObject.m in Sources */,
+				FFFA25E4222CD4B600C5A2BA /* HAVAudioItem.m in Sources */,
+				FFFA2730222D46F800C5A2BA /* HAVParticleSystem.m in Sources */,
+				FFFB3CDC2243432B0062F74D /* HNormalFBO.m in Sources */,
+				FFFA25F0222CD5BE00C5A2BA /* HAVAudioRender.m in Sources */,
+				FFFA2632222CDB2200C5A2BA /* HAVVideoExport.m in Sources */,
+				FF441FC9239F974300DE52F9 /* HAVVideoEffectManager.m in Sources */,
+				FFFA26CD222D136800C5A2BA /* HAVGifFilter.m in Sources */,
+				FFFA271C222D2E8C00C5A2BA /* HAVParticle.m in Sources */,
+				FF441FC5239F968C00DE52F9 /* HAVVideoEffectFilterController.m in Sources */,
+				FFFAF66323A32C36009DC4EF /* HCutOutFilterController.m in Sources */,
+				FFFA2642222CDBEE00C5A2BA /* HAVVideoTrackItem.m in Sources */,
+				FFFA2636222CDB6800C5A2BA /* HAVVideoItem.m in Sources */,
+				FFFA2652222CE31900C5A2BA /* DCMovieAssetExport.m in Sources */,
+				FF441F83239E4C5700DE52F9 /* HWatermarkExport.m in Sources */,
+				FFFA25B3222966CB00C5A2BA /* DCSpecialEffectsView.m in Sources */,
+				FFFA262E222CDADE00C5A2BA /* HAVVideoClip.m in Sources */,
+				FFFA25F6222CD66C00C5A2BA /* HAVFileManager.m in Sources */,
+				FFFB3CDF2243432B0062F74D /* HGPUBeautyFilterController.m in Sources */,
+				FFFA26D6222D16E500C5A2BA /* HAVScrawAndTextFilter.m in Sources */,
+				FFFA25FE222CD71400C5A2BA /* HAVGPUImageMovieMix.m in Sources */,
+				FFFA269A222D0C3700C5A2BA /* HAVGPULightLutFilter.m in Sources */,
+				FFFA2728222D468000C5A2BA /* HAVParticleFilterController.m in Sources */,
+				FFFA26D1222D13CD00C5A2BA /* HAVGifFilterController.m in Sources */,
+				FFFA2720222D2EEA00C5A2BA /* HAVParticleEmitter.m in Sources */,
+				FFFA2718222D2E5000C5A2BA /* NSData+Compression.m in Sources */,
+				FFFA263E222CDBBF00C5A2BA /* HAVVideoTrack.m in Sources */,
+				FFFA267D222D075C00C5A2BA /* CMOrientation.m in Sources */,
+				FFFA2689222D09AF00C5A2BA /* HAVSpliteFilterController.m in Sources */,
+				FFFA2685222D08FB00C5A2BA /* HAVSpliteFilter.m in Sources */,
+				FFFA2622222CDA1E00C5A2BA /* HAVQuickSpeedImageMovie.m in Sources */,
+				FFFA25DC222CD43100C5A2BA /* HAVAudioPlayer.m in Sources */,
+				FFFA2692222D0B9800C5A2BA /* HAVLutImageFilterController.m in Sources */,
+				FFFA2696222D0BF100C5A2BA /* HAVGPUImageLutFilter.m in Sources */,
+				FFFA262A222CDA9D00C5A2BA /* HAVSynthesis.m in Sources */,
+				FFFA2738222D55F100C5A2BA /* DCEffectController.m in Sources */,
+				FFFAF65D23A32B04009DC4EF /* HCutOutFilter.m in Sources */,
+				FFFA2616222CD94000C5A2BA /* HAVMutiTracksPlayerItem.m in Sources */,
+				FF441F6A239E35AA00DE52F9 /* HWaterMark.m in Sources */,
+				FFFA2612222CD8E600C5A2BA /* HAVMovieReader.m in Sources */,
+				FFFA265A222CFF3200C5A2BA /* HAVGPUImageFilterManager.m in Sources */,
+				FFFA273C222D572500C5A2BA /* HAVVideoWaterMark.m in Sources */,
+				FFFA260A222CD7E800C5A2BA /* HAVMetadataRetreiver.m in Sources */,
+				FFFA2656222CE37D00C5A2BA /* AVAssetTrack+GPUImageRotation.m in Sources */,
+				FFFA2724222D464500C5A2BA /* HAVParticleFilter.m in Sources */,
+				FFFA2626222CDA5600C5A2BA /* HAVSpecialEffectsController.m in Sources */,
+				FFFA25FA222CD6D600C5A2BA /* HAVGPUImageMovie.m in Sources */,
+				FFFA264E222CDD0E00C5A2BA /* HAVMoviePlayer.m in Sources */,
+				FF441FC1239F95EE00DE52F9 /* HAVVideoEffectFilter.m in Sources */,
+				FF441FCD239F97A600DE52F9 /* HAVVideoEffectProgramManager.m in Sources */,
+				FFFB4051224CD33C0062F74D /* HCropFilter.m in Sources */,
+				FFFA264A222CDCCA00C5A2BA /* HAVAssetItem.m in Sources */,
+				FFFA25C0222CCEEB00C5A2BA /* DCVideoPreview.m in Sources */,
+				FFFA25D4222CD34C00C5A2BA /* AVAsset+MetalData.m in Sources */,
+				FFFB3CE12243432B0062F74D /* HGPUBeauty.m in Sources */,
+				FFFA2646222CDC8A00C5A2BA /* HAVAsset.m in Sources */,
+				FF441FB5239F92F200DE52F9 /* HAVAssetReaderOutput.m in Sources */,
+				FFFA2680222D075C00C5A2BA /* QAVFaceTracker.mm in Sources */,
+				FFFA260E222CD85200C5A2BA /* HAVMovieFileReader.m in Sources */,
+				FFFA26DF222D18DB00C5A2BA /* HAVTools.m in Sources */,
+				FFFA25EC222CD59200C5A2BA /* HAVAudioTrack.m in Sources */,
+				FFFA2606222CD7AC00C5A2BA /* HAVMetadata.m in Sources */,
+				FFFA261A222CD97D00C5A2BA /* HAVPlayer.m in Sources */,
+				FFFA25D8222CD3AB00C5A2BA /* AVURLAsset+MetalData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFFA22A722295FE400C5A2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFFA22A822295FE400C5A2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFFA22AA22295FE400C5A2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ET3SY67GVF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoEditKit/frameworks",
+					"$(PROJECT_DIR)/VideoEditKit/effects/video/QAVFaceTrack",
+					"$(PROJECT_DIR)/VideoEditKit/PushFlow",
+				);
+				GCC_PREFIX_HEADER = "/Users/huangshiping/Desktop/参考项目/自定义/归档/采集 + 编辑 /VideoEditKit/VideoEditKit/VideoEditKit.pch";
+				INFOPLIST_FILE = VideoEditKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoEditKit/foundation2/mp4v2/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.VideoEditKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFA22AB22295FE400C5A2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ET3SY67GVF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoEditKit/frameworks",
+					"$(PROJECT_DIR)/VideoEditKit/effects/video/QAVFaceTrack",
+					"$(PROJECT_DIR)/VideoEditKit/PushFlow",
+				);
+				GCC_PREFIX_HEADER = "/Users/huangshiping/Desktop/参考项目/自定义/归档/采集 + 编辑 /VideoEditKit/VideoEditKit/VideoEditKit.pch";
+				INFOPLIST_FILE = VideoEditKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoEditKit/foundation2/mp4v2/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsp.org.VideoEditKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFA229B22295FE400C5A2BA /* Build configuration list for PBXProject "VideoEditKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFA22A722295FE400C5A2BA /* Debug */,
+				FFFA22A822295FE400C5A2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFA22A922295FE400C5A2BA /* Build configuration list for PBXNativeTarget "VideoEditKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFA22AA22295FE400C5A2BA /* Debug */,
+				FFFA22AB22295FE400C5A2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFA229822295FE400C5A2BA /* Project object */;
+}
